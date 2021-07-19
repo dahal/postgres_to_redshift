@@ -57,6 +57,7 @@ class PostgresToRedshift::Column
     "inet" => "CHARACTER VARYING(65535)",
     "array" => "CHARACTER VARYING(65535)",
     "uuid" => "CHARACTER VARYING(65535)",
+    "jsonb" => "CHARACTER VARYING(65535)",
   }
 
   def initialize(attributes: )
